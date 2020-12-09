@@ -3,7 +3,7 @@
 *  what is  dmenu? 
 
 dmenu is an efficient dynamic menu for X. made by the the [suckless](suckless.org) guys
-it an anti bloat launch application and the is my dmenu costume build
+it an anti bloat launch application and this is my dmenu costume build
 
 
 ## Requirements
