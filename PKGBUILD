@@ -1,5 +1,5 @@
 # Maintainer: abdellatif-dev <abdellatif.devlog@gmail.com>
-pkgname=dmenu-abdellatif
+pkgname=dmenu-abdellatif-git
 pkgver=0.5.5
 pkgrel=1
 pkgdesc="my dmenu costume build"
@@ -11,7 +11,7 @@ makedepends=(git make)
 optdepends=()
 provides=(dmenu)
 conflicts=(dmenu)
-replaces=(dmenu)
+replaces=()
 install=
 changelog=
 source=("git+$url")
