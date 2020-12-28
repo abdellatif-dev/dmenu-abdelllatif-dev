@@ -16,7 +16,12 @@ the /usr/local namespace by default).
 
 Afterwards enter the following command to build and install dmenu
 (if necessary as root):
+* from arch user repo (aur):
+```bash
+yay -S dmenu-abdellatif
+```
 
+* compile it yourself:
 ```bash
 make clean install
 ```
