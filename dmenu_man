@@ -1,2 +1,2 @@
 #!/bin/sh
-dmenu_path | dmenu "$@" -p "man:" |xargs -I {} termite -e "man {}" 
+dmenu_path | dmenu "$@" -p "man:" |xargs -I {} xfce4-terminal -e "man {}" 
