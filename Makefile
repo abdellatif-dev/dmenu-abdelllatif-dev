@@ -64,3 +64,8 @@ uninstall:
 		$(DESTDIR)$(MANPREFIX)/man1/stest.1
 
 .PHONY: all options clean dist install uninstall
+
+run:
+	make clean
+	make 
+	./dmenu_run

@@ -9,8 +9,8 @@ static const char *fonts[] = {
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#5e97af", "#0f111a" },
-	[SchemeSel] = { "#0f111a", "#e98567" },
+	[SchemeNorm] = { "#5e97af", "#090a0f" },
+	[SchemeSel] = { "#090a0f", "#e98567" },
 	[SchemeOut] = { "#000000", "#00ffff" },
 };
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
@@ -24,5 +24,5 @@ static unsigned int columns    = 1;
 static const char worddelimiters[] = " ";
 
 /* Size of the window border */
-static unsigned int border_width = 2;
+static unsigned int border_width = 1;
 
